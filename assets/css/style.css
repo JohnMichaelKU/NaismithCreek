@@ -94,26 +94,31 @@ h3 {
 }
 #creek-background {
   height: 900px;
-  background: url("../images/Background.jpg");
+  background: url("../images/Background.jpg"); 
 }
 #Agents {
   height: 840px;
-  background: url("../images/agentbackground.jpg");
+  /* background: url("../images/agentbackground.jpg"); */
+}
+#Layout {
+  height: 840px;
+}
+#Layoutpic {
+  width: 600px;
+}
+#footer {
+  height: 120px;
+  border-top: solid black 2px;
+}
+#footer p {
+  color: black;
 }
 #NaismithCreek {
   color: black;
 }
 #logo {
-  float: left;
-  width: 120px;
-  height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 90px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
+  width: 600px;
+  height: 258px;
 }
 .agent-info {
   display: inline-block;
@@ -121,10 +126,24 @@ h3 {
   margin-right: 20px;
   margin-left: 20px
 }
+.footer-info {
+  display: inline-block;
+  margin-top: -40px;
+  margin-right: 50px;
+  margin-left: 50px
+}
+.layout-info {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px
+}
 #mcgrewLogo {
   float: left;
   width: 120px;
   height: 90px;
+}
+.footerPic2 {
+  height: 100px;
 }
 
 nav {
@@ -176,16 +195,39 @@ h3,
 
 #main-container {
   padding-top: 50px;
+  width: 100%;
+  height: 100%;
+  /* background:rgba( 255, 255, 255, 0.5); */
+
 }
 
 #agent-section {
   text-align: center;
 }
 #agent-section h1 {
+  color: white;
+}
+#layout-section {
+  text-align: center;
+}
+#layout-section h1 {
   color: black;
 }
+#footer-section {
+  text-align: center;
+}
+#mcgrewLogo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100px;
+}
+#mcgrewLogoSpacing {
+  text-align: center;
+}
 .main-section {
-  margin-top: 250px;
+  margin-top: 150px;
   width: 100%;
   max-width: 960px;
   padding: 30px;
@@ -197,6 +239,8 @@ h3,
 }
 .main-section h2 {
   font-size: 30px;
+  color: black;
+  margin-top: 50px;
 }
 /* contact page */
 
