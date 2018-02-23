@@ -207,6 +207,9 @@ h3,
 #agent-section h1 {
   color: white;
 }
+#agent-section a {
+  color: white;
+}
 #layout-section {
   text-align: center;
 }
