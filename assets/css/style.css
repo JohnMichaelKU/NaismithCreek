@@ -94,7 +94,8 @@ h3 {
 }
 #creek-background {
   height: 900px;
-  background: url("../images/Background.jpg"); 
+  background: url("../images/backgroundflowers.jpg"); 
+  background-size: cover;
 }
 #Agents {
   height: 840px;
@@ -104,7 +105,7 @@ h3 {
   height: 840px;
 }
 #Layoutpic {
-  width: 600px;
+  width: 720px;
 }
 #footer {
   height: 120px;
